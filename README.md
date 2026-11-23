@@ -1,4 +1,7 @@
 # Dorker 
+<p align="center">
+  <img src="assets/dorker-preview.png" alt="Dorker Chrome Extension Preview" width="800">
+</p>
 
 **Build Google Dorks. Simplify Recon.**
 
