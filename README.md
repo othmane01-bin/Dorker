@@ -16,6 +16,51 @@ Instead of manually remembering and combining search operators, Dorker provides 
 - **Dark Cybersecurity UI:** A clean, HackTools-inspired interface.
 - **Modular Architecture:** Designed to make adding new generators and search capabilities straightforward.
 
+### Installation
+
+Dorker can currently be installed manually using Chrome's Developer Mode.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/othmane01-bin/dorker.git
+   cd dorker
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Build the extension:
+
+   ```bash
+   npm run build
+   ```
+
+4. Open Chrome and navigate to:
+
+   ```text
+   chrome://extensions
+   ```
+
+5. Enable **Developer mode**.
+6. Click **Load unpacked**.
+7. Select the generated `dist/` directory.
+
+The Dorker extension should now appear in your Chrome extensions list.
+
+### Usage
+
+1. Open Dorker from the Chrome extensions menu.
+2. Select a search generator.
+3. Enter the required information, such as a target domain or file type.
+4. Review the generated Google Dork in the query preview.
+5. Click **Copy Query** to copy it or **Search Google** to execute it.
+
+That's it. No API keys, accounts, or external services required.
+
 ### Project Goals
 
 Dorker aims to become a practical search reconnaissance toolbox, bringing commonly used Google search operators into one convenient browser extension.
